@@ -1,0 +1,4 @@
+fake_useragent==1.5.1
+Flask==3.0.3
+html2text==2024.2.26
+Requests==2.32.2
