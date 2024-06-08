@@ -5,6 +5,6 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY leecode-problem-md.py .
+COPY leetcode-problem-md.py .
 
-CMD [ "python", "./leecode-problem-md.py" ]
+CMD [ "python", "leetcode-problem-md.py" ]
